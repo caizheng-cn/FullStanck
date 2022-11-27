@@ -111,7 +111,9 @@ input {
     left: 50%;
     transform: translate(-50%);
 }
-.signin{position: absolute;
+
+.signin {
+    position: absolute;
     float: left;
     top: 870px;
     left: 50%;
@@ -120,6 +122,7 @@ input {
     color: white;
     font-size: 22px;
 }
-.in{
+
+.in {
     color: #3cffb5;
 }
