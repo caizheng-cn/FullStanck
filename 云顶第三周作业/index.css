@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+input {
+    background: transparent;
+    border: 0;
+    width: 250px;
+}
+
+.icon-fanhui1 {
+    opacity: 0.5;
+
+}
+
+.background {
+    position: relative;
+    margin: 0 auto;
+    background: url(imagess/Snipaste_2022-11-27_13-00-19.png);
+    height: 1060px;
+    width: 601px;
+
+}
+
+.header {
+    display: flex;
+    position: absolute;
+    top: 35px;
+    width: 601px;
+    height: 60px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 60px;
+    color: white;
+    font-size: 32px;
+    opacity: 0.8;
+}
+
+.photos {
+    position: absolute;
+    float: left;
+    width: 601px;
+    height: 170px;
+    top: 160px;
+}
+
+.border {
+    position: absolute;
+    float: left;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.icon-photo {
+    position: absolute;
+    float: left;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -80%);
+}
+
+.photo {
+    position: absolute;
+    float: left;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 80%);
+    font-size: 20px;
+    font-family: Myriad Pro;
+    color: #cbdbe4;
+    opacity: 0.5;
+}
+
+.name {
+    font-size: 26px;
+    font-family: Myriad Pro;
+    color: #cbdbe4;
+}
+
+.input {
+    position: absolute;
+    float: left;
+    top: 360px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.show {
+    color: #3cffb5;
+    font-family: Myriad Pro;
+    font-size: 20px;
+}
+
+.signup {
+    position: absolute;
+    float: left;
+    height: 120px;
+    top: 780px;
+    left: 50%;
+    transform: translate(-50%);
+}
+.signin{position: absolute;
+    float: left;
+    top: 870px;
+    left: 50%;
+    transform: translate(-50%);
+    height: 40px;
+    color: white;
+    font-size: 22px;
+}
+.in{
+    color: #3cffb5;
+}
